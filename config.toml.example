@@ -1,0 +1,14 @@
+# https://discord.com/developers/applications
+# https://discord.com/oauth2/authorize?scope=bot&permissions=277025393664&client_id=YOUR_CLIENT_ID_HERE
+discord_token = "YOUR_BOT_TOKEN_HERE"
+log_level = "DEBUG"
+# You can use a filtered scoreboard here, like http://scoreboard.uscyberpatriot.org/index.php?division=Open
+scoreboard = "http://scoreboard.uscyberpatriot.org/"
+team_scoreboard = "http://scoreboard.uscyberpatriot.org/team.php?team={team_id}"
+team_id = "14-0123"
+cogs = ["core", "competition"]
+# Slash commands aren't yet implemented in discord.py
+command_prefix = "."
+user_agent = "X's CyberPatriot Discord Bot <your@email>"
+# The tzdata-format timezone of the team
+timezone = "America/New_York"
